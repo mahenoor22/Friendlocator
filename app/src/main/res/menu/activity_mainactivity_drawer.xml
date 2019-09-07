@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_My_Location"
+            android:title="My Location"/>
+        <item
+            android:id="@+id/nav_message"
+            android:title="Message"/>
+        <item
+            android:id="@+id/nav_contacts_view"
+            android:title="Friends"/>
+        <item
+            android:id="@+id/nav_call_feature"
+            android:title="Calling Features"/>
+        <!--   <item
+               android:id="@+id/nav_instant_relief"
+               android:title="Instant Relief"/> -->
+
+        <item
+            android:id="@+id/nav_nearby_sos"
+            android:title="SOS nearby"/>
+
+        <item
+            android:id="@+id/nav_cry_out_loud"
+            android:title="Cry Out Loud"/>
+
+        <item
+            android:id="@+id/nav_custom_message"
+            android:title="Custom Message"/>
+
+
+        <item android:id="@+id/nav_settings"
+            android:title="Settings"
+            />
+
+        <item android:id="@+id/nav_about_us"
+            android:title="About Us"/>
+
+        <item android:id="@+id/logout"
+            android:title="Log Out"/>
+
+    </group>
+</menu>

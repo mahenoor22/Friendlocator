@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#101010">
+
+    <Button
+        android:id="@+id/cop"
+        android:layout_width="200dp"
+        android:background="@drawable/button_for_black"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:text="Call The Cops :100" />
+
+    <Button
+        android:id="@+id/ambulance"
+        android:layout_width="200dp"
+        android:background="@drawable/button_for_black"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="259dp"
+        android:text="Ambulance-102" />
+
+    <Button
+        android:id="@+id/fire"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/button_for_black"
+        android:layout_marginTop="40dp"
+        android:text="Fire 101" />
+
+    <Button
+        android:id="@+id/child"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ambulance"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_for_black"
+        android:layout_alignLeft="@+id/ambulance"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="373dp"
+        android:text="Child Helpline-1098" />
+
+    <Button
+        android:id="@+id/women"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_for_black"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/blood"
+        android:layout_alignLeft="@+id/blood"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="470dp"
+        android:text="Helpline for Women-181" />
+
+    <Button
+        android:id="@+id/blood"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cop"
+        android:layout_alignLeft="@+id/cop"
+        android:layout_marginStart="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/button_for_black"
+        android:layout_marginTop="580dp"
+        android:text="Blood requirement-104" />
+</RelativeLayout>

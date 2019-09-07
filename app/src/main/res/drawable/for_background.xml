@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/sky"
+    android:gravity="bottom"
+    android:dither="true"
+    android:filter="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

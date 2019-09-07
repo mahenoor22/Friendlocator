@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/message_back"
+    >
+
+    <Button
+        android:id="@+id/woman"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="#000"
+        android:textStyle="italic|bold"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:text="Woman Screaming Audio" />
+
+    <Button
+        android:id="@+id/police"
+        android:layout_width="198dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/woman"
+        android:layout_alignEnd="@+id/woman"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="1dp"
+        android:background="#000"
+        android:padding="8dp"
+        android:text="Police Siren Audio"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic|bold" />
+
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="162dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:background="#000"
+        android:textStyle="italic|bold"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:text="CLICK TO STOP " />
+</RelativeLayout>

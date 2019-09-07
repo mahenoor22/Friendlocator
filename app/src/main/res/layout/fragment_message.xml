@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:id="@+id/R1"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/country" />
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="When In Emergency,Click Here."
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_arrow_downward_black_24dp" />
+    <Button
+        android:id="@+id/sos_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_button"
+        android:elevation="24dp"
+        android:text="SOS!! 'HELP' "
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#F3F2F7" />
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_for_message"
+        android:text="Out Of Danger"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
+
+</RelativeLayout>
